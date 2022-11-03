@@ -1,0 +1,13 @@
+{
+  "name": "@npm/eslint-config-monorepo",
+  "version": "1.0.0",
+  "description": "eslint config for monorepo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "monorepo-design",
+  "version": "1.0.0",
+  "description": "monorepo with npm workspace",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "apps/app-admin",
+    "apps/app-h5",
+    "apps/app-server",
+    "libs/eslint-config-monorepo",
+    "libs/lib-utils"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfire/monorepo-design.git"
+  },
+  "keywords": [
+    "monorepo",
+    "npm",
+    "workspace"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfire/monorepo-design/issues"
+  },
+  "homepage": "https://github.com/lfire/monorepo-design#readme"
+}

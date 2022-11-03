@@ -1,0 +1,15 @@
+{
+  "name": "app-admin",
+  "version": "1.0.0",
+  "description": "admin app",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "admin"
+  ],
+  "author": "",
+  "license": "ISC"
+}
