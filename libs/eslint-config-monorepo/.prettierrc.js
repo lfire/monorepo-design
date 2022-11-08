@@ -25,6 +25,8 @@ module.exports = {
   // 每个文件格式化的范围是文件的全部内容
   rangeStart: 0,
   rangeEnd: Infinity,
+  // 指定用于推断使用那个解析器的文件名
+  filepath: 'none',
   // 不需要写文件开头的 @prettier
   requirePragma: false,
   // 不需要自动在文件开头插入 @prettier

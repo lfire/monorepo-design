@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    './lib/prettier.js',
     'alloy',
   ],
   env: {
@@ -19,4 +20,6 @@ module.exports = {
   rules: {
     // 自定义你的规则
   },
+  // 以当前目录为根目录，不再向上查找 .eslintrc.js
+  root: true,
 };

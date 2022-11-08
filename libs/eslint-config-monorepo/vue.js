@@ -1,5 +1,7 @@
 module.exports = {
   extends: [
+    './lib/prettier.js',
+    "prettier/vue", // 禁用插件中与 Prettier 冲突的规则
     'alloy',
     'alloy/vue',
   ],
@@ -20,4 +22,6 @@ module.exports = {
   rules: {
     // 自定义你的规则
   },
+  // 以当前目录为根目录，不再向上查找 .eslintrc.js
+  root: true,
 };

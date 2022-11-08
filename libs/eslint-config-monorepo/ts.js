@@ -1,5 +1,8 @@
 module.exports = {
   extends: [
+    "plugin:@typescript-eslint/recommended", // 引入相关插件
+    './lib/prettier.js',
+    // "prettier/@typescript-eslint", // 禁用插件中与 Prettier 冲突的规则
     'alloy',
     'alloy/typescript',
   ],
@@ -20,4 +23,6 @@ module.exports = {
   rules: {
     // 自定义你的规则
   },
+  // 以当前目录为根目录，不再向上查找 .eslintrc.js
+  root: true,
 };
