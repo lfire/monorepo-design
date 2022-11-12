@@ -1,16 +1,22 @@
-<script>
-import { getQuery } from '@npm/lib-utils';
-
+<script lang="ts">
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String,
-    query: String,
-  },
-  mounted() {
-    this.query = JSON.stringify(getQuery());
-  },
 };
+</script>
+<script setup lang="ts">
+import { onMounted, ref } from 'vue';
+import { getQuery } from '@npm/lib-utils';
+
+interface AvatarProps {
+  msg: string;
+}
+const props = withDefaults(defineProps<AvatarProps>(), {
+  msg: 'Hello',
+});
+const query = ref('');
+onMounted(() => {
+  query.value = JSON.stringify(getQuery());
+});
 </script>
 
 <template>
