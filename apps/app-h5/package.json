@@ -40,8 +40,8 @@
     "vue-template-compiler": "^2.6.11",
     "vue-tsc": "^1.0.8"
   },
-  "engines" : {
-    "node" : "^14.18.0 || >=16.0.0"
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
   },
   "keywords": [
     "h5"
