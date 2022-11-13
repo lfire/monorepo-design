@@ -1,0 +1,36 @@
+{
+  "name": "app-h5",
+  "version": "1.0.0",
+  "description": "h5 app",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "eslint src --ext .js,.vue"
+  },
+  "dependencies": {
+    "@pnpm/lib-utils": "^1.0.0",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@pnpm/eslint-config-monorepo": "workspace:^1.0.0",
+    "@vue/cli-plugin-babel": "~4.5.19",
+    "@vue/cli-service": "~4.5.19",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
+    "eslint-config-alloy": "^3.10.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "prettier": "^2.7.1",
+    "vue-eslint-parser": "^7.1.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "keywords": [
+    "h5"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "monorepo-design",
+  "version": "1.0.0",
+  "description": "monorepo with pnpm workspace",
+  "private": true,
+  "packageManager": "pnpm@7.15.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfire/monorepo-design.git"
+  },
+  "keywords": [
+    "monorepo",
+    "pnpm",
+    "workspace"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfire/monorepo-design/issues"
+  },
+  "homepage": "https://github.com/lfire/monorepo-design#readme"
+}
