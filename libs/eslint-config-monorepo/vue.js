@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     './lib/prettier.js',
-    "prettier/vue", // 禁用插件中与 Prettier 冲突的规则
+    // "prettier/vue", // 禁用插件中与 Prettier 冲突的规则
     'alloy',
     'alloy/vue',
   ],
