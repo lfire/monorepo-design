@@ -8,6 +8,7 @@
   "scripts": {
     "build": "npm run clean && npm run build:types && rollup -c",
     "build:types": "tsc",
+    "watch": "npm run clean && npm run build:types && rollup -wc",
     "clean": "rm -rf dist/",
     "lint": "eslint src --ext .js,.ts"
   },
