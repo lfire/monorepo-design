@@ -17,3 +17,5 @@ import { isObject } from '@lerna/lib-utils';
 
 console.log(isObject({}));
 ```
+
+manage by lerna

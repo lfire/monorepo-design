@@ -65,3 +65,5 @@ module.exports = {
   },
 };
 ```
+
+manage by lerna
