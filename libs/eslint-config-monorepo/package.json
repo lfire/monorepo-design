@@ -1,7 +1,7 @@
 {
   "name": "@lerna/eslint-config-monorepo",
-  "version": "1.0.1",
-  "description": "eslint config for monorepo, witch surpport vue2.x",
+  "version": "2.0.0",
+  "description": "eslint config for monorepo, witch surpport vue3.x",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,16 +12,19 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.4.1",
-    "@typescript-eslint/parser": "^4.4.1",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.11.0",
-    "eslint-config-alloy": "^3.10.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-vue": "^7.0.0",
+    "@babel/core": "^7.20.2",
+    "@babel/eslint-parser": "^7.19.1",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "eslint": "^8.27.0",
+    "eslint-config-alloy": "^4.7.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-vue": "^9.7.0",
     "prettier": "^2.7.1",
-    "typescript": "<4.5.0",
-    "vue-eslint-parser": "^7.1.1"
+    "typescript": "^4.8.4",
+    "vue-eslint-parser": "^9.1.0"
   }
 }

@@ -1,10 +1,9 @@
 module.exports = {
   extends: [
-    "plugin:@typescript-eslint/recommended", // 引入相关插件
     './lib/prettier.js',
-    // "prettier/@typescript-eslint", // 禁用插件中与 Prettier 冲突的规则
+    // "prettier/vue", // 禁用插件中与 Prettier 冲突的规则
     'alloy',
-    'alloy/typescript',
+    'alloy/react',
   ],
   env: {
     // 你的环境变量（包含多个预定义的全局变量）

@@ -24,11 +24,44 @@ module.exports = {
 };
 ```
 
-支持 Vue2.x：
-> 当前不支持 Vue3.x
+支持 Vue：
+> 当前支持 Vue3.x，如若要支持 Vue2.x，请安装 `@lerna/eslint-config-monorepo@1`。
 ```js
 module.exports = {
   root: true,
   extends: ['@lerna/eslint-config-monorepo/vue'],
+};
+```
+
+支持 Vue TS版：
+```js
+module.exports = {
+  root: true,
+  extends: ['@lerna/eslint-config-monorepo/vue-ts'],
+  parserOptions: {
+    tsconfigRootDir: __dirname,
+  },
+};
+```
+
+支持 React：
+```js
+module.exports = {
+  root: true,
+  extends: ['@lerna/eslint-config-monorepo/react'],
+  parserOptions: {
+    tsconfigRootDir: __dirname,
+  },
+};
+```
+
+支持 React TS版：
+```js
+module.exports = {
+  root: true,
+  extends: ['@lerna/eslint-config-monorepo/react-ts'],
+  parserOptions: {
+    tsconfigRootDir: __dirname,
+  },
 };
 ```
