@@ -10,12 +10,12 @@
     "lint": "eslint src --ext .js,.vue"
   },
   "dependencies": {
-    "@rush/lib-utils": "^1.0.1",
+    "@rush/lib-utils": "^1.0.3",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@rush/eslint-config-monorepo": "^1.0.1",
+    "@rush/eslint-config-monorepo": "^3.0.0",
     "@vue/cli-plugin-babel": "~4.5.19",
     "@vue/cli-service": "~4.5.19",
     "babel-eslint": "^10.1.0",

@@ -1,0 +1,22 @@
+{
+  "name": "@rush/lib-utils",
+  "entries": [
+    {
+      "version": "1.0.3",
+      "tag": "@rush/lib-utils_v1.0.3",
+      "date": "Sun, 13 Nov 2022 17:07:01 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "update the new version eslint dep"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@rush/eslint-config-monorepo\" from `^2.0.0` to `^3.0.0`"
+          }
+        ]
+      }
+    }
+  ]
+}
