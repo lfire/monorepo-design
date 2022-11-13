@@ -1,0 +1,17 @@
+{
+  "name": "@rush/eslint-config-monorepo",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "@rush/eslint-config-monorepo_v1.0.1",
+      "date": "Sun, 13 Nov 2022 16:49:51 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "init the @rush/xxx libs"
+          }
+        ]
+      }
+    }
+  ]
+}
