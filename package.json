@@ -1,0 +1,32 @@
+{
+  "name": "monorepo-design",
+  "version": "1.0.0",
+  "description": "monorepo with yarn workspace",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "libs/lib-utils",
+    "apps/app-admin",
+    "apps/app-h5",
+    "apps/app-server",
+    "libs/eslint-config-monorepo"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfire/monorepo-design.git"
+  },
+  "keywords": [
+    "monorepo",
+    "yarn",
+    "workspace"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfire/monorepo-design/issues"
+  },
+  "homepage": "https://github.com/lfire/monorepo-design#readme"
+}
