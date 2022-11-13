@@ -1,13 +1,13 @@
 Invoking: vue-cli-service build 
 
 -  Building for production...
- DONE  Compiled successfully in 5293ms12:32:09 AM
+ DONE  Compiled successfully in 4366ms1:01:44 AM
 
   File                                 Size               Gzipped
 
   dist/js/chunk-vendors.591a3484.js    97.92 KiB          34.39 KiB
-  dist/js/app.aa51e09a.js              63.49 KiB          20.20 KiB
-  dist/css/app.e022d0b9.css            0.33 KiB           0.23 KiB
+  dist/js/app.28cfdd7a.js              63.51 KiB          20.21 KiB
+  dist/css/app.89a5ef75.css            0.33 KiB           0.23 KiB
 
   Images and other types of assets omitted.
 

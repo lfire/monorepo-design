@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import HelloWorld from './components/HelloWorld.vue';
 
 export default {
@@ -10,10 +10,8 @@ export default {
 </script>
 
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to App H5" />
-  </div>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <HelloWorld msg="Welcome to App H5 @Vue3.x" />
 </template>
 
 <style>
