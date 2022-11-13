@@ -18,6 +18,6 @@
 #
 #   //registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}
 #
-registry=http://npm.benji.com:4873/
+//npm.benji.com:4873/:_authToken="v59OtISw5TnwckmaPlXpng=="
 always-auth=false
 auto-install-peers=true
