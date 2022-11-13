@@ -4,6 +4,7 @@ module.exports = {
     './lib/prettier.js',
     // "prettier/@typescript-eslint", // 禁用插件中与 Prettier 冲突的规则
     'alloy',
+    'alloy/react',
     'alloy/typescript',
   ],
   env: {

@@ -4,8 +4,21 @@ module.exports = {
     './lib/prettier.js',
     // "prettier/@typescript-eslint", // 禁用插件中与 Prettier 冲突的规则
     'alloy',
+    'alloy/vue',
     'alloy/typescript',
   ],
+  parser: 'vue-eslint-parser',
+  parserOptions: {
+    parser: {
+      js: '@babel/eslint-parser',
+      jsx: '@babel/eslint-parser',
+
+      ts: '@typescript-eslint/parser',
+      tsx: '@typescript-eslint/parser',
+
+      // Leave the template parser unspecified, so that it could be determined by `<script lang="...">`
+    },
+  },
   env: {
     // 你的环境变量（包含多个预定义的全局变量）
     //
