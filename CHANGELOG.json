@@ -1,0 +1,17 @@
+{
+  "name": "@rush/eslint-config-monorepo",
+  "entries": [
+    {
+      "version": "3.0.0",
+      "tag": "@rush/eslint-config-monorepo_v3.0.0",
+      "date": "Sun, 13 Nov 2022 17:07:01 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "update to surport vue3.x & react"
+          }
+        ]
+      }
+    }
+  ]
+}
