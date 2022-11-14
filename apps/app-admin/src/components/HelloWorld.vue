@@ -5,7 +5,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String,
-    query: String,
+  },
+  data() {
+    return {
+      query: '',
+    };
   },
   mounted() {
     this.query = JSON.stringify(getQuery());
