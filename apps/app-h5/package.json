@@ -10,13 +10,13 @@
     "lint": "vue-tsc --noEmit --skipLibCheck && eslint src --ext .js,jsx,vue,ts,tsx"
   },
   "dependencies": {
-    "@rush/lib-utils": "^1.0.3",
+    "@rush/lib-utils": "^1.0.4",
     "vue": "^3.2.37"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/eslint-parser": "^7.19.1",
-    "@rush/eslint-config-monorepo": "^3.0.0",
+    "@rush/eslint-config-monorepo": "^3.0.1",
     "@types/node": "18.8.0",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
