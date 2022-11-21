@@ -56,7 +56,7 @@ dependencies:
   '@rollup/plugin-typescript': 9.0.2_00178214b3136286fb7699b305322380
   '@rush-temp/app-admin': file:projects/app-admin.tgz_typescript@4.9.3
   '@rush-temp/app-h5': file:projects/app-h5.tgz_eslint-plugin-react@7.31.11
-  '@rush-temp/app-server': file:projects/app-server.tgz_9eb08a7474ce28976e49693088d5772b
+  '@rush-temp/app-server': file:projects/app-server.tgz_2780a039bfcf78f06ef8474080be36b1
   '@rush-temp/eslint-config-monorepo': file:projects/eslint-config-monorepo.tgz
   '@rush-temp/lib-utils': file:projects/lib-utils.tgz
   '@types/node': 18.8.0
@@ -1693,8 +1693,8 @@ packages:
       rollup: 2.79.1
     dev: false
 
-  /@rush/eslint-config-monorepo/1.0.1_b297d17b63fb774f24eb5aeaea5ad24f:
-    resolution: {integrity: sha512-jcW+9ABhTeigAGcjR30QztpvK/s0MB+ULGfd0qUh7L9FCzlZA2wZJKDibu7vHKJFvKPbrehN/2NU6/CbLcMyBQ==}
+  /@rush/eslint-config-monorepo/1.0.2_82750ea978e335672202b39d36809b39:
+    resolution: {integrity: sha512-7iLRhEZI79nwdNkZ+vfa4a48VGFCRydluf4EpkUJWH2pEb0rXUxFiLz8buHAcRkIIvJjMUIBV7tB+TGNgPa8KA==}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^4.4.1
       '@typescript-eslint/parser': ^4.4.1
@@ -1707,6 +1707,17 @@ packages:
       prettier: ^2.7.1
       typescript: <4.5.0
       vue-eslint-parser: ^7.1.1
+    peerDependenciesMeta:
+      '@typescript-eslint/eslint-plugin':
+        optional: true
+      '@typescript-eslint/parser':
+        optional: true
+      eslint-plugin-vue:
+        optional: true
+      typescript:
+        optional: true
+      vue-eslint-parser:
+        optional: true
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.43.0_6c13c08efc22ad2f80829ce4a7a0fc7e
       '@typescript-eslint/parser': 5.43.0_eslint@8.28.0+typescript@4.9.3
@@ -1718,7 +1729,6 @@ packages:
       eslint-plugin-vue: 7.20.0_eslint@7.32.0
       prettier: 2.7.1
       typescript: 4.9.3
-      vue-eslint-parser: 7.11.0_eslint@8.28.0
     dev: false
 
   /@soda/friendly-errors-webpack-plugin/1.8.1_webpack@4.46.0:
@@ -10354,24 +10364,6 @@ packages:
       - supports-color
     dev: false
 
-  /vue-eslint-parser/7.11.0_eslint@8.28.0:
-    resolution: {integrity: sha512-qh3VhDLeh773wjgNTl7ss0VejY9bMMa0GoDG2fQVyDzRFdiU3L7fw74tWZDHNQXdZqxO3EveQroa9ct39D2nqg==}
-    engines: {node: '>=8.10'}
-    peerDependencies:
-      eslint: '>=5.0.0'
-    dependencies:
-      debug: 4.3.4
-      eslint: 8.28.0
-      eslint-scope: 5.1.1
-      eslint-visitor-keys: 1.3.0
-      espree: 6.2.1
-      esquery: 1.4.0
-      lodash: 4.17.21
-      semver: 6.3.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
   /vue-eslint-parser/9.1.0_eslint@8.28.0:
     resolution: {integrity: sha512-NGn/iQy8/Wb7RrRa4aRkokyCZfOUWk19OP5HP6JEozQFX5AoS/t+Z0ZN7FY4LlmWc4FNI922V7cvX28zctN8dQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
@@ -10823,7 +10815,7 @@ packages:
     dev: false
 
   file:projects/app-admin.tgz_typescript@4.9.3:
-    resolution: {integrity: sha512-s8cpV5gqbym9/kqN/V1Ofx181Xx3W6EA3ru9RrKdyZYkJceIUXSf7bqvaWD3ehCyRBfoNmCrpCtiOi7iNSxCWQ==, tarball: file:projects/app-admin.tgz}
+    resolution: {integrity: sha512-CweT/9EWKntFSqCdr0UIySZZ3bNEiclCwO/VBwBYKwNYPwPD0gGe0UmjjfxbmgXn37rL13orshYsoJvMAzDxYw==, tarball: file:projects/app-admin.tgz}
     id: file:projects/app-admin.tgz
     name: '@rush-temp/app-admin'
     version: 0.0.0
@@ -10855,7 +10847,7 @@ packages:
     dev: false
 
   file:projects/app-h5.tgz_eslint-plugin-react@7.31.11:
-    resolution: {integrity: sha512-DxgKKUgl6UoXLKUU47sSGAKhy56zCV73morOiQ6sTxppI3VEizLnfAtc53ISHNgA/vOHbptpri6hZFsFpzu6pA==, tarball: file:projects/app-h5.tgz}
+    resolution: {integrity: sha512-DKZK61uXAXE7kQ7JHsFSgmwSlfiCqrQz5XiRePv+jR40S4JG08RC6SS5fBKGv7MMx5I/du0W3EQKj1NWHOxNeA==, tarball: file:projects/app-h5.tgz}
     id: file:projects/app-h5.tgz
     name: '@rush-temp/app-h5'
     version: 0.0.0
@@ -10896,13 +10888,13 @@ packages:
       - supports-color
     dev: false
 
-  file:projects/app-server.tgz_9eb08a7474ce28976e49693088d5772b:
+  file:projects/app-server.tgz_2780a039bfcf78f06ef8474080be36b1:
     resolution: {integrity: sha512-2+29PK9yqvaHjqD4Puv+r3Jfs/mNl9EZoSEq39FwhihYUWB6TCLlY27FaGu1jSPCKaBFOr6+ciDrn0bVBSXfsg==, tarball: file:projects/app-server.tgz}
     id: file:projects/app-server.tgz
     name: '@rush-temp/app-server'
     version: 0.0.0
     dependencies:
-      '@rush/eslint-config-monorepo': 1.0.1_b297d17b63fb774f24eb5aeaea5ad24f
+      '@rush/eslint-config-monorepo': 1.0.2_82750ea978e335672202b39d36809b39
       babel-eslint: 10.1.0_eslint@7.32.0
       eslint: 7.32.0
       eslint-config-alloy: 3.10.0
@@ -10944,7 +10936,7 @@ packages:
     dev: false
 
   file:projects/lib-utils.tgz:
-    resolution: {integrity: sha512-xZPVMQYpELOlsiw7QSqBE45YlP7zFzQZrFeaaakmY5dXMC20AqwRzY002VAFvjr3Eol56VCgKpWPnakDUK30aA==, tarball: file:projects/lib-utils.tgz}
+    resolution: {integrity: sha512-4sjOaiajKGXaWuTQuY37wkUUGSC1S+REMcowDR+dGn5xRKFs0rFAYY6HosmkEHaDwvDnuCtOKpME8OUUbpMobQ==, tarball: file:projects/lib-utils.tgz}
     name: '@rush-temp/lib-utils'
     version: 0.0.0
     dependencies:
