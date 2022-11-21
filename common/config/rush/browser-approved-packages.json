@@ -1,0 +1,190 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@babel/core",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "@babel/eslint-parser",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "@babel/preset-env",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "@rollup/plugin-babel",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "@rollup/plugin-commonjs",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "@rollup/plugin-node-resolve",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "@rollup/plugin-replace",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "@rollup/plugin-typescript",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "@rush/eslint-config-monorepo",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "@rush/lib-utils",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "@types/node",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "@typescript-eslint/eslint-plugin",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "@vitejs/plugin-vue",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "@vitejs/plugin-vue-jsx",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "@vue/cli-plugin-babel",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "@vue/cli-service",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "@vue/eslint-config-typescript",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "babel-eslint",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "core-js",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "cross-env",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "eslint",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "eslint-config-alloy",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "eslint-config-prettier",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "eslint-plugin-prettier",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "eslint-plugin-react",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "eslint-plugin-vue",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "express",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "prettier",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "qs",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "rollup",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "rollup-plugin-polyfill-node",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "rollup-plugin-terser",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "sort-package-json",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "terser",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "tslib",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "typescript",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "vite",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "vite-plugin-chunk-split",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "vite-plugin-compression",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "vite-plugin-html",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "vite-plugin-style-import",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "vue",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "vue-eslint-parser",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "vue-template-compiler",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "vue-tsc",
+      "allowedCategories": [ "apps" ]
+    }
+  ]
+}
