@@ -2,6 +2,18 @@
   "name": "@rush/eslint-config-monorepo",
   "entries": [
     {
+      "version": "1.0.2",
+      "tag": "@rush/eslint-config-monorepo_v1.0.2",
+      "date": "Mon, 21 Nov 2022 11:27:28 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "update peerDependencies of eslint-config-monorepo"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.1",
       "tag": "@rush/eslint-config-monorepo_v1.0.1",
       "date": "Sun, 13 Nov 2022 16:49:51 GMT",
