@@ -2,6 +2,18 @@
   "name": "@rush/eslint-config-monorepo",
   "entries": [
     {
+      "version": "3.0.2",
+      "tag": "@rush/eslint-config-monorepo_v3.0.2",
+      "date": "Fri, 16 Jun 2023 09:04:17 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "hello"
+          }
+        ]
+      }
+    },
+    {
       "version": "3.0.1",
       "tag": "@rush/eslint-config-monorepo_v3.0.1",
       "date": "Mon, 21 Nov 2022 11:18:00 GMT",

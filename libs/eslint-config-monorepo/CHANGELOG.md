@@ -1,6 +1,13 @@
 # Change Log - @rush/eslint-config-monorepo
 
-This log was last generated on Mon, 21 Nov 2022 11:18:00 GMT and should not be manually modified.
+This log was last generated on Fri, 16 Jun 2023 09:04:17 GMT and should not be manually modified.
+
+## 3.0.2
+Fri, 16 Jun 2023 09:04:17 GMT
+
+### Patches
+
+- hello
 
 ## 3.0.1
 Mon, 21 Nov 2022 11:18:00 GMT
